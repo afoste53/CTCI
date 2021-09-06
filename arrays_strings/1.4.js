@@ -1,4 +1,5 @@
-// attempt 1
+// By sorting the array and stepping through. One Pass
+// O(nlgn)? b/c sorting?
 /**
  * @param str
  * @returns {boolean}
