@@ -1,3 +1,8 @@
+// attempt 1
+/**
+ * @param str
+ * @returns {boolean}
+ */
 function isPermdPalindrome(str) {
   let [...chars] = str;
   chars.sort();
@@ -5,6 +10,7 @@ function isPermdPalindrome(str) {
   let t, middleCharacter;
 
   for (let i = 0; i < chars.length; i++) {
+    // ignore spaces
     if (chars[i] === " ") {
       continue;
     } else if (!t) {
@@ -19,14 +25,20 @@ function isPermdPalindrome(str) {
     }
   }
 
-  return true;
+  if (chars.length % 2 === 0 && middleCharacter) {
+    // if it's even there can be no "middlecharacter", return false
+    return false;
+  } else {
+    return true;
+  }
 }
 
-console.log(isPermdPalindrome("tac ocat"));
-console.log(isPermdPalindrome("ccjjididopp"));
-console.log(isPermdPalindrome("aaannaa"));
-console.log(isPermdPalindrome("civic"));
-console.log(isPermdPalindrome("radar"));
-console.log(isPermdPalindrome("reviver"));
-console.log(isPermdPalindrome("refer the het "));
-console.log(isPermdPalindrome("civic lands"));
+// console.log(isPermdPalindrome("tac ocat"));
+// console.log(isPermdPalindrome("ccjjididopp"));
+// console.log(isPermdPalindrome("aaannaa"));
+// console.log(isPermdPalindrome("civic"));
+// console.log(isPermdPalindrome("radar"));
+// console.log(isPermdPalindrome("reviver"));
+// console.log(isPermdPalindrome("refer the het "));
+// console.log(isPermdPalindrome("civic lands"));
+//console.log(isPermdPalindrome("as"));
