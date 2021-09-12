@@ -33,3 +33,5 @@ function compressStr(str) {
 }
 
 console.log(compressStr("aaaabbccccccb"));
+
+// aabaab doesn't work

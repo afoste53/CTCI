@@ -39,4 +39,4 @@ console.log(oneAway("cat", "cat"));
 console.log(oneAway("cat", "atfjfj"));
 console.log(oneAway("cat", "bat"));
 console.log(oneAway("ct", "cat"));
-console.log(oneAway("pale", "bake"));
+console.log(oneAway("bake", "bake"));
