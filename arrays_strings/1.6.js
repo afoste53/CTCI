@@ -32,4 +32,4 @@ function compressStr(str) {
   }
 }
 
-console.log(compressStr("aaaabbcc"));
+console.log(compressStr("aaaabbccccccb"));
