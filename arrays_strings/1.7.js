@@ -1,0 +1,6 @@
+/*
+ * Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes,
+ * write a method to rotate the image by 90deg. Can you do this in place?
+ * */
+
+function rotateMatrix(matrix) {}
