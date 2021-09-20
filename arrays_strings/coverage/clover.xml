@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1632175805976" clover="3.2.0">
+  <project timestamp="1632175805977" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="17" coveredelements="17" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+    <file name="1.a.js" path="C:\Users\mrgin\Documents\reactice\notReact\CTCI\arrays_strings\1.a.js">
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="9" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="5" type="stmt"/>
+      <line num="14" count="5" type="stmt"/>
+      <line num="16" count="46" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="27" type="stmt"/>
+      <line num="20" count="19" type="stmt"/>
+      <line num="25" count="5" type="stmt"/>
+      <line num="26" count="31" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="2" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

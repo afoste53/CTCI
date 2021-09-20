@@ -30,6 +30,8 @@ function firstNonRepeat(str) {
   return "_";
 }
 
+module.exports = firstNonRepeat;
+
 // empty string -> should return "_"
 //console.log(firstNonRepeat(""));
 
