@@ -31,15 +31,3 @@ function firstNonRepeat(str) {
 }
 
 module.exports = firstNonRepeat;
-
-// empty string -> should return "_"
-//console.log(firstNonRepeat(""));
-
-// "aaa" -> "_"
-//console.log(firstNonRepeat("aaa"));
-
-// abbba -> "_"
-//console.log(firstNonRepeat("abba"));
-
-// aabaabcaaa -> "c"
-//console.log(firstNonRepeat("aabaabcaaa"));

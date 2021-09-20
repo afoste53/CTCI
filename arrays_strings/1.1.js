@@ -37,8 +37,3 @@ function isUnique(str){
 
     return true;
 }
-
-console.log(isUnique("jalalbad"));
-console.log(isUnique("bad dog"));
-console.log(isUnique('hi amy'));
-console.log(isUnique('hi amy hi'));
