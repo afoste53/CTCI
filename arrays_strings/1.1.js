@@ -1,3 +1,11 @@
+/**
+ * Implement fn to see if string has all unique characters. *
+ * (empty string will return false)
+ *
+ * @param str
+ * @returns {boolean}
+ */
+
 // // slow double for
 // function isUnique(str) {
 //     for(let i = 0; i < str.length; i++){
@@ -25,6 +33,8 @@
 
 // // w/ js obj
 function isUnique(str){
+    if(!str) return false;
+
     let map = {};
 
     for(let c in str){
@@ -37,3 +47,5 @@ function isUnique(str){
 
     return true;
 }
+
+module.exports = isUnique;
