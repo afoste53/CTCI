@@ -1,16 +1,14 @@
 {
-  "dependencies": {
-    "prettier": "^2.3.2"
-  },
   "name": "arrays_strings",
   "version": "1.0.0",
+  "description": "",
   "main": "1.1.js",
-  "devDependencies": {},
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
     "test": "jest --coverage"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
