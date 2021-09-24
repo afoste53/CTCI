@@ -1,7 +1,8 @@
-Class node {
-	constructor(data, prev){
+class ListNode {
+	constructor(data) {
 		this.data = data;
-		this.prev = prev;
 		this.next = null;
 	}
 }
+
+export default ListNode;
