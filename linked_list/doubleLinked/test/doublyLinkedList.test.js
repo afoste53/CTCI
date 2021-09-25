@@ -11,7 +11,7 @@ test("Initialized list should be empty", () => {
     expect(str).toBe('');
 });
 
-test("Adding one element to empty list should make it the head", ()=> {
+test("Adding one element to empty list should make it the head", () => {
     list.add(1);
 
     expect(list.head.data).toBe(1);
@@ -30,4 +30,10 @@ test("Nodes should be added to the end of the list", () => {
 
     expect(list.head.data).toBe(1);
     expect(list.toPrint()).toBe('1 -> 2 -> 3 -> 4 -> 5 -> ');
+
+    expect(list.size).toBe(5);
+});
+
+test("Find method should return the correct (and first) index for a given data point", () => {
+    console.log(list.size);
 });
