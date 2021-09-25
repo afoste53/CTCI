@@ -1,4 +1,4 @@
-import ListNode from "./ListNode";
+Listnode = require('./node.js');
 
 class LinkedList {
 	constructor() {
@@ -150,3 +150,5 @@ LinkedList.prototype.printList = function () {
 
 	console.log(returnString);
 };
+
+module.exports = LinkedList;
