@@ -35,5 +35,10 @@ test("Nodes should be added to the end of the list", () => {
 });
 
 test("Find method should return the correct (and first) index for a given data point", () => {
-    console.log(list.size);
+    // 0-offset -> eg. value three should be found at index 2
+    expect(list.find(1)).toBe(0);
+    expect(list.find(2)).toBe(1);
+    expect(list.find(3)).toBe(2);
+    expect(list.find(4)).toBe(3);
+    expect(list.find(5)).toBe(4);
 });
