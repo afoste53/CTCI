@@ -40,5 +40,9 @@ test("Find method should return the correct (and first) index for a given data p
     expect(list.find(2)).toBe(1);
     expect(list.find(3)).toBe(2);
     expect(list.find(4)).toBe(3);
-    expect(list.find(5)).toBe(4);
+    expect(list.find(5
+
+    )).toBe(4);
 });
+
+test("test commit ", ()=>{})

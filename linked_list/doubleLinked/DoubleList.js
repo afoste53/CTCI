@@ -38,7 +38,6 @@ DoublyLinkedList.prototype.find = function(data){
 			}
 
 			return index;
-
 		}
 	}
 }
